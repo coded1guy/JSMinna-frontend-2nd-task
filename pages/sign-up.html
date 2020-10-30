@@ -8,6 +8,8 @@
 </head>
 <body>
     <main>
+      <div class="loader"></div>
+        <h1>Sign Up</h1>
         <form>
             <div class="input-char">
                 <div class="name">
@@ -32,19 +34,25 @@
                     <legend for="phone-no">PHONE NO</legend>
                     <input type="number" id="phone-no" placeholder="phone number" required>
                 </div>
-                <div>
-                    <legend for="password">PASSWORD</legend>
-                    <input type="password" id="password" placeholder="password" required>
+                <div class="name">
+                    <div>
+                        <legend for="password">PASSWORD</legend>
+                        <input type="password" id="password" placeholder="password" required>
+                    </div>
+                    <div>
+                        <legend for="confirm-password">CONFIRM PASSWORD</legend>
+                        <input type="password" id="confirm-password" placeholder="confirm password" required>
+                    </div>
                 </div>
                 <div>
-                    <legend for="confirm-password">NEW PASSWORD</legend>
-                    <input type="password" id="confirm-password" placeholder="confirm password" required>
+                    <input type="checkbox" id="checker">
+                    <label for="checker"><strong><em>I agree to all the terms of condition</em></strong></label><br>
                 </div>
             </div>
             <div class="to-other">
                 <span>already have an account - <a href="../index.html"> Login</a></span>
             </div>
-            <input type="submit" value="submit" disabled>
+            <input type="submit" id="submit" value="submit">
         </form>
     </main>
     <script src="../js/login.js"></script>
