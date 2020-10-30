@@ -33,7 +33,7 @@ let senData = () => {
   loader.style.display = "block";
   forms.style.opacity = "0.3";
   setTimeout(() => {
-    window.location.assign('../Done.html');
+    window.location.assign('Done.html');
   }, 2000);
 }
 submit.addEventListener('click', (Event) => {
