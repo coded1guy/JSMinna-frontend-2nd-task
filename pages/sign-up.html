@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>emmo | Signup page</title>
+</head>
+<body>
+    <main>
+        <form>
+            <div class="input-char">
+                <div class="name">
+                    <span>
+                        <legend for="fname">FIRST NAME</legend>
+                        <input type="text" id="fname" placeholder="First Name" required>
+                    </span>
+                    <span>
+                        <legend for="lname">LAST NAME</legend>
+                        <input type="text" id="lname" placeholder="Last Name" required>
+                    </span>
+                </div>
+                <div>
+                    <legend for="username">USERNAME</legend>
+                    <input type="text" id="username" placeholder="username" required>
+                </div>
+                <div>
+                    <legend for="email">EMAIL</legend>
+                    <input type="email" id="email" placeholder="email" required>
+                </div>
+                <div>
+                    <legend for="phone-no">PHONE NO</legend>
+                    <input type="number" id="phone-no" placeholder="phone number" required>
+                </div>
+                <div>
+                    <legend for="password">PASSWORD</legend>
+                    <input type="password" id="password" placeholder="password" required>
+                </div>
+                <div>
+                    <legend for="confirm-password">NEW PASSWORD</legend>
+                    <input type="password" id="confirm-password" placeholder="confirm password" required>
+                </div>
+            </div>
+            <div class="to-other">
+                <span>already have an account - <a href="../index.html"> Login</a></span>
+            </div>
+            <input type="submit" value="submit" disabled>
+        </form>
+    </main>
+    <script src="../js/login.js"></script>
+</body>
+</html>
